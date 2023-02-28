@@ -16,6 +16,8 @@
 		105DB89829ADC1A500B80157 /* TSAWaitTimeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105DB89729ADC1A500B80157 /* TSAWaitTimeTests.swift */; };
 		105DB8A229ADC1A500B80157 /* TSAWaitTimeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105DB8A129ADC1A500B80157 /* TSAWaitTimeUITests.swift */; };
 		105DB8A429ADC1A500B80157 /* TSAWaitTimeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105DB8A329ADC1A500B80157 /* TSAWaitTimeUITestsLaunchTests.swift */; };
+		105DB8B129ADC2C400B80157 /* AirportsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105DB8B029ADC2C400B80157 /* AirportsTableViewController.swift */; };
+		105DB8B329ADC56900B80157 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105DB8B229ADC56900B80157 /* TimerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		105DB89D29ADC1A500B80157 /* TSAWaitTimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TSAWaitTimeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		105DB8A129ADC1A500B80157 /* TSAWaitTimeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TSAWaitTimeUITests.swift; sourceTree = "<group>"; };
 		105DB8A329ADC1A500B80157 /* TSAWaitTimeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TSAWaitTimeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		105DB8B029ADC2C400B80157 /* AirportsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportsTableViewController.swift; sourceTree = "<group>"; };
+		105DB8B229ADC56900B80157 /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				105DB88029ADC1A200B80157 /* AppDelegate.swift */,
 				105DB88229ADC1A200B80157 /* SceneDelegate.swift */,
 				105DB88429ADC1A200B80157 /* ViewController.swift */,
+				105DB8B029ADC2C400B80157 /* AirportsTableViewController.swift */,
+				105DB8B229ADC56900B80157 /* TimerViewController.swift */,
 				105DB88629ADC1A200B80157 /* Main.storyboard */,
 				105DB88929ADC1A500B80157 /* Assets.xcassets */,
 				105DB88B29ADC1A500B80157 /* LaunchScreen.storyboard */,
@@ -258,7 +264,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				105DB8B329ADC56900B80157 /* TimerViewController.swift in Sources */,
 				105DB88529ADC1A200B80157 /* ViewController.swift in Sources */,
+				105DB8B129ADC2C400B80157 /* AirportsTableViewController.swift in Sources */,
 				105DB88129ADC1A200B80157 /* AppDelegate.swift in Sources */,
 				105DB88329ADC1A200B80157 /* SceneDelegate.swift in Sources */,
 			);
@@ -437,6 +445,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L9L8H58363;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TSAWaitTime/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -464,6 +473,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L9L8H58363;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TSAWaitTime/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
